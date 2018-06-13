@@ -1,0 +1,102 @@
+
+body
+{
+	font-family: Ltato, Arial, Serif;
+	background-image: url("images/arriere_plan.jpg");
+	width: auto;
+
+}
+@font-face { 
+font-family: Lato; 
+src: url("/fonts/Lato/Lato-Regular.ttf") format("truetype"); 
+font-weight:normal; 
+font-style:normal; 
+}
+
+
+
+h1
+{
+	text-align: center;
+	color : teal;
+	text-shadow: 4px 4px 4px pink;
+}
+
+h2
+{
+	color: teal;
+	border: 1px teal solid;
+	background-color: white;
+	text-align: center;
+	width: auto;
+}
+
+
+.poste
+{text-align: center;
+font-size: 16px;
+font-family : Lato, Arial, Serif;}
+
+.association
+{
+font-style: italic;
+text-align: center;
+}
+
+.imageflottante
+{
+	float: left;
+	display: inline-flex;
+	flex-direction: center;
+}
+
+#fioriture
+{
+	float: left;
+	padding-right: 50px;
+
+}
+
+#experience
+{
+		display: inline-block;
+		width: 27%;
+		vertical-align: top;
+}
+
+#competences
+{
+
+	display: inline-block;
+	width: 27%;
+	vertical-align: top;
+
+}
+
+#formation
+{
+
+	display: inline-block;
+	width: 27%;
+	vertical-align: top;
+
+
+}
+
+@media screen and (max-width: 1024px)
+
+{
+
+	h2 {color: pink; width: auto;}
+
+	#fioriture {display: none;}
+
+	#experience {display: block; width : auto; font-size: 0.8em;}
+
+	#competences {display: block; width: auto; font-size: 0.8em;}
+
+	#formation {display : block; width: auto; font-size: 0.8em;}
+
+	
+
+}
